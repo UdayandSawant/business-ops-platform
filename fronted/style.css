@@ -1,0 +1,19 @@
+body {                          /* Style the whole page body */
+  font-family: Arial, sans-serif; /* Use a clean font */
+  background-color: #f4f6f8;    /* Light grey background */
+}
+h1 {                            /* Style every h1 heading */
+  color: #2c5282;               /* Dark blue text */
+  text-align: center;           /* Put it in the middle */
+}
+ul {                            /* Style the bullet list */
+  background-color: white;      /* White box behind the list */
+  padding: 20px;                /* Space inside the box */
+}
+button {                        /* Style the button */
+  background-color: #2c5282;    /* Blue button */
+  color: white;                 /* White text */
+  padding: 10px 20px;           /* Space inside the button */
+  border: none;                 /* Remove the default border */
+  border-radius: 6px;           /* Round the corners */
+}
