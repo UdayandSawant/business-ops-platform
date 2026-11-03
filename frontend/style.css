@@ -17,3 +17,17 @@ button {                        /* Style the button */
   border: none;                 /* Remove the default border */
   border-radius: 6px;           /* Round the corners */
 }
+.layout {                 /* The box that holds sidebar and content */
+  display: flex;          /* Place children side by side */
+  min-height: 100vh;      /* Full screen height */
+}
+.sidebar {                /* The left menu */
+  width: 200px;           /* Fixed width */
+  background: #2c5282;    /* Dark blue */
+  color: white;           /* White text */
+  padding: 20px;          /* Space inside */
+}
+.content {                /* The main area */
+  flex: 1;                /* Take all remaining space */
+  padding: 20px;          /* Space inside */
+}
